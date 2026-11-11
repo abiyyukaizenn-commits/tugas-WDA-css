@@ -1,0 +1,48 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.box {
+    background-color: #2a2a2a;
+    border: 2px solid #444;
+    width: 500px;
+    margin: 15px auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+input {
+    width: 180px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.item {
+    border: 2px solid gray;
+    padding: 12px;
+}
+
+.active {
+    border: 2px solid orange;
+    color: orange;
+    font-weight: bold;
+}
